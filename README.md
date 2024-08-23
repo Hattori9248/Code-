@@ -6,8 +6,9 @@ Dataset two: https://drive.google.com/file/d/1E1FOl_bTp8MLmCLtM7ZW77HqOSd252pt/v
 
 You need to replace the API KEY with your own API KEY before running the code.
 
-If you get an error when running the code, you need to install the following two environment configurations：
+If you get an error when running the code, you need to install the following three environment configurations：
 %pip install chromadb --quiet
 %pip install open_clip_torch --quiet
+%pip install matplotlib Pillow --quiet
 
 Also, when running the code, you need to replace the folder paths (local_image_dirs) with the actual paths.
